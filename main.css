@@ -63,8 +63,8 @@ body {
   text-align: center;
   padding: 100px 20px;
   /* margin-top: 70px; */
-  background: #241e4e;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/assets/images/hero-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -74,9 +74,19 @@ body {
 
 .hero-content {
   font-size: 1.5rem;
-  max-width: 800px;
+  max-width: 50%;
   text-align: left;
-  margin-left: 15%;
+  margin-left: 10%;
+}
+
+.hero-content h1 {
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  margin-bottom: 1rem;
+  font-size: medium;
+  max-width: 80%;
 }
 
 .hero-content button {
@@ -100,9 +110,9 @@ body {
 
 /* Features Grid */
 .features-section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 40px auto;
-  padding: 0 200px;
+  padding: 0 20px;
 }
 
 .features-grid {
@@ -137,6 +147,14 @@ body {
   margin-bottom: 1rem;
 }
 
+.features-info ul {
+    margin: 10px;
+}
+
+.features-info ul li {
+    margin-bottom: 0.5rem;
+}
+
 /* Footer */
 .footer {
   background: #04250e;
@@ -146,9 +164,10 @@ body {
 
 .footer-content {
   max-width: 100%;
+  max-height: 100vh;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 2rem;
 }
 
