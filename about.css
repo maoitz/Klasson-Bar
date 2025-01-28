@@ -9,6 +9,14 @@
     color: #333;
   }
 
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 12%;
+  }
+
   #logga {
       height: 100px;
       margin-left: 45%;
@@ -88,7 +96,7 @@ body {
 
 /* Header Styles */
 .header {
-    background: #241E4E;
+    background: #352109;
     color: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
