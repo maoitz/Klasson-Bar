@@ -69,7 +69,22 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 2000;
+  z-index: 1000;
+}
+
+.wave {
+  --size: 50px;
+  --m: 0.5;
+  --p: calc(var(--m)*var(--size));
+  --R: calc(var(--size)*sqrt(var(--m)*var(--m) + 1));
+
+  mask:
+    radial-gradient(var(--R) at 50% calc(100% - (var(--size) + var(--p))), #000 99%, #0000 101%)
+      calc(50% - 2 * var(--size)) 0/calc(4 * var(--size)) 100%,
+    radial-gradient(var(--R) at 50% calc(100% + var(--p)), #0000 99%, #000 101%) 
+      50% calc(100% - var(--size)) / calc(4 * var(--size)) 100% repeat-x;
+  background: linear-gradient(90deg,red,blue);
+  height: 200px;
 }
 
 .hero-content {
@@ -148,11 +163,11 @@ body {
 }
 
 .features-info ul {
-    margin: 10px;
+  margin: 10px;
 }
 
 .features-info ul li {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Footer */
@@ -192,3 +207,5 @@ body {
   border-right: solid white 1px;
   padding-right: 20px;
 }
+
+
