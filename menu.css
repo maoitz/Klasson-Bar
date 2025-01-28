@@ -167,12 +167,22 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 2em;
+        gap: 1em;
     }
     .food{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 2em;
+        gap: 1em;
     }
+    .drink-container{
+        margin: 0;
+    }
+    .drink-image{
+        margin: 0;
+    }
+    .drink-container{
+        margin: 0;
+    }
+
 }

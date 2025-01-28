@@ -170,6 +170,7 @@ textarea {
 }
 .map{
     height: 40vh;
+    width: 40vw;
 }
 .book{
     padding: 2em;
@@ -238,11 +239,11 @@ textarea {
     }
     .map{
         height: 40vh;
-        width: 50wv;
+        width: 60vw;
 
     }
     .contact-form{
         max-width: 70vw;
     }
-    
+
 }
