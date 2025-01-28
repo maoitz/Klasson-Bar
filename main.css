@@ -9,23 +9,19 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #0B5351;
-
+    background: #304536;
 }
 
 /* Header Styles */
 .header {
-    background: #241E4E;
+    background: #352109;
     color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.5); */
     position: sticky;
     top: 0;
-    z-index: 100;
 }
 
-
 .top-banner {
-    /* background: #f8f9fa; */
     padding: 8px 0;
     text-align: center;
     font-size: 0.9rem;
@@ -59,78 +55,80 @@ body {
     font-weight: 500;
 }
 
-.nav-icons {
-    display: flex;
-    gap: 1.5rem;
-    text-decoration: none;
-}
-
 /* Hero Section */
 .hero-section {
-    /* background: #f8f9fa; */
-    
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    /* margin-top: 70px; */
+    background: #241E4E;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/images/hero-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
 }
 
 .hero-content {
-    
+    font-size: 1.5rem;
+    max-width: 800px;
+    text-align: left;
+    margin-left: 15%;
 }
 
-.hero-background {
-    background-image: linear-gradient() url('https://images.unsplash.com/photo-1606780290004-3b3b3f3b3b3b');
-
+.hero-content button {
+    background: #f98a00;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+.hero-content button a {
+    text-decoration: none;
+}
+
+.hero-content button:hover {
+    background: #f7b52b;
 }
 
 /* Product Grid */
-.products {
+.features-section {
     max-width: 1200px;
     margin: 40px auto;
-    padding: 0 20px;
+    padding: 0 200px;
 }
 
-.products h2 {
-    margin-bottom: 2rem;
-}
-
-.product-grid {
+.features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 2rem;
 }
 
-.product-card {
-    border: 1px solid #eee;
+.features-card {
+    /* border: 1px solid #eee; */
+    background: #04250e;;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s;
 }
 
-.product-card:hover {
+.features-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.product-image {
-    width: 100%;
-    height: 200px;
-    background: #f8f9fa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.product-info {
+.features-info {
     padding: 1rem;
 }
 
 /* Footer */
 .footer {
-    background: #241E4E;
-    /* color: white; */
+    background: #04250e;
     padding: 40px 20px;
     margin-top: 60px;
 }
