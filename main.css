@@ -98,7 +98,7 @@ body {
   background: #f7b52b;
 }
 
-/* Product Grid */
+/* Features Grid */
 .features-section {
   max-width: 1200px;
   margin: 40px auto;
@@ -128,6 +128,15 @@ body {
   padding: 1rem;
 }
 
+.features-info h3 {
+  margin-bottom: 1rem;
+  border-bottom: solid white 1px;
+}
+
+.features-info p {
+  margin-bottom: 1rem;
+}
+
 /* Footer */
 .footer {
   background: #04250e;
@@ -136,7 +145,7 @@ body {
 }
 
 .footer-content {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -158,4 +167,9 @@ body {
 .footer-section a {
   color: white;
   text-decoration: none;
+}
+
+#footer-info {
+  border-right: solid white 1px;
+  padding-right: 20px;
 }
