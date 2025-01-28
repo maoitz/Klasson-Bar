@@ -62,10 +62,18 @@ body {
 }
 
 /* Hero Section */
-.hero {
+.hero-section {
     background: #f8f9fa;
-    padding: 60px 20px;
-    text-align: center;
+    
+}
+
+.hero-content {
+    
+}
+
+.hero-background {
+    background: url(/assets/logo.png) center/cover no-repeat;
+
 }
 
 .hero h1 {
