@@ -3,25 +3,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    color: white;
 }
 
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    background-color: #0B5351;
+
 }
 
 /* Header Styles */
 .header {
-    background: white;
+    background: #241E4E;
+    color: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
+
 .top-banner {
-    background: #f8f9fa;
+    /* background: #f8f9fa; */
     padding: 8px 0;
     text-align: center;
     font-size: 0.9rem;
@@ -40,7 +44,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #333;
+    color: white;
     text-decoration: none;
 }
 
@@ -51,7 +55,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: white;
     font-weight: 500;
 }
 
@@ -63,7 +67,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: #f8f9fa;
+    /* background: #f8f9fa; */
     padding: 60px 20px;
     text-align: center;
 }
@@ -117,8 +121,8 @@ body {
 
 /* Footer */
 .footer {
-    background: #333;
-    color: white;
+    background: #241E4E;
+    /* color: white; */
     padding: 40px 20px;
     margin-top: 60px;
 }
