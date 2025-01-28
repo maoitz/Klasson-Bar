@@ -8,7 +8,12 @@
     background-color: #304536;
     color: #333;
   }
-
+  .top-banner {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+  }
   .logo {
     display: flex;
     align-items: center;
